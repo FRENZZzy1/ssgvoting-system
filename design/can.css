@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bgnew.jpg);
+    background-size: 1600px 950px;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: center;
+  }
+  ul{
+    list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+  }
+ 
+  
+
+
+.fb{
+    color: aliceblue;
+}
+
+.ig{
+    color: aliceblue;
+}
+
+.me{
+  color: aliceblue;
+}
+
+
+.fb:hover{
+    color: rgb(24, 139, 192);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform: translateY(-3px);
+
+
+    
+}
+
+.ig:hover{
+    color: rgb(161, 36, 155);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform: translateY(-3px);
+
+
+    
+}
+
+.me:hover{
+  color: rgb(36, 161, 63);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transform: translateY(-3px);
+
+
+  
+}
